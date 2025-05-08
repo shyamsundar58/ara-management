@@ -27,6 +27,8 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
 		
 <!-- CSS -->
+    <!-- REVOSLIDER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.min.css" media="screen">
 
     <!--  BOOTSTRAP -->
 		<link rel="stylesheet" href="css/bootstrap.min.css"> 
@@ -100,11 +102,9 @@
 					</div>
 				</div>
 				<![endif]-->
-
-      <div class="header-transporent-bg-black">	
-      
+				
 				<!-- HEADER -->
-				<header id="nav" class="header header-1 black-header">
+				<header id="nav" class="header header-1">
 				  <div class="header-wrapper">
 					<div class="container-m-30 clearfix">
 					  <div class="logo-row">
@@ -113,7 +113,7 @@
 						<div class="logo-container-2">
                 <div class="logo-2">
                   <a href="index.html" class="clearfix">
-                    <img src="images/logo-white.png" class="logo-img" alt="Logo">
+                    <img src="images/logo.png" class="logo-img" alt="Logo">
                   </a>
                 </div>
               </div>
@@ -136,7 +136,7 @@
 								  <div class="navbar navbar-default" role="navigation">
 
 									<!-- MAIN MENU LIST -->
-									<nav class="collapse collapsing navbar-collapse nav-center">
+									<nav class="collapse collapsing navbar-collapse right-1024">
 									  <ul class="nav navbar-nav">
                       
                       <!-- MENU ITEM -->
@@ -146,13 +146,13 @@
                         <li class="parent">
                           <a class="current" href="#">Home - Corporate</a>
                           <ul class="sub">
-                          <li><a href="index.html">Corporate 1</a></li>
+                          <li><a class="current" href="index.html">Corporate 1</a></li>
                           <li><a href="index2.html">Corporate 2</a></li>
                           <li><a href="index3.html">Corporate 3</a></li>
                           <li><a href="index4.html">Corporate 4</a></li>
                           <li><a href="index5.html">Corporate 5</a></li>
                           <li><a href="index6.html">Corporate 6</a></li>
-                          <li><a class="current" href="index-center.html">Corporate 7 <span class="label-new">new</span></a></li>
+                          <li><a href="index-center.html">Corporate 7 <span class="label-new">new</span></a></li>
                           <li><a href="index-sticky-header-on-mobile.html">Corporate 8 <span class="label-new">new</span></a></li>
                           <li><a href="index-hiding-logo-header.html">Corporate 9 <span class="label-new">new</span></a></li>
                           <li><a href="index10.html">Corporate 10<span class="label-new">new</span></a></li>
@@ -591,43 +591,259 @@
 				  
 				</header>
 				
-        <!-- STATIC MEDIA IMAGE -->
-        <div class="sm-img-bg-fullscr parallax-section" style="background-image: url(images/static-media/arc.jpg)" data-stellar-background-ratio="0.5">
-          <div class="container sm-content-cont text-center js-height-fullscr">
-            <div class="sm-cont-middle">
+				<!-- REVO SLIDER FULLSCREEN 1 -->
+				<div class="relative">
+					<div class="rs-fullscr-container">
+						
+						<div id="rs-fullscr" class="tp-banner" >
+							<ul>	
+								<!-- SLIDE 1 -->
+								<li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="images/revo-slider/rs-fullscr-thumb1.jpg"  data-saveperformance="on"  data-title="BEGIN">
+									<!-- MAIN IMAGE -->
+									 
+									<img src="images/revo-slider/dummy.png"  alt="slidebg1" data-lazyload="images/revo-slider/slide_1_1.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+								
+									
+									<!-- LAYERS -->
 
-							<!-- OPACITY container -->
-							<div class="opacity-scroll2">
+									<!-- LAYER NR. 0 BG CAPTIONS -->
+									<div class="tp-caption rs-parallaxlevel-4 zoomout"
+										data-x="left"
+										data-y="center" 
+										
+										data-speed="1300"
+										data-start="200"
+										
+										data-easing="Power3.easeInOut"
+										style="z-index: 0;">
+										<div class="slider-bg-white-cap"></div>
+									</div>
+									
+									<!--PARALLAX & OPACITY container -->
+									<div class="rs-parallaxlevel-4 opacity-scroll2">
+										<!-- LAYER NR. 1 -->
+										<div class="tp-caption dark-light-100 tp-left sfb tp-resizeme"
+											data-x="640"
+											data-y="205" 
+											data-speed="500"
+											data-start="850"
+											data-easing="Power1.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Begin
+										</div>
+										
+										<!-- LAYER NR. 2 -->
+										<div class="tp-caption dark-black-100 tp-left sfb tp-resizeme"
+											data-x="650"
+											data-y="295" 
+											data-speed="500"
+											data-start="1050"
+											data-easing="Power1.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Anywhere
+										</div>
+										
+										<!-- LAYER NR. 3 LINE -->
+										 <div class="tp-caption slider-1-cap-line tp-left hide-0-736 sfb tp-resizeme"
+											data-x="650"
+											data-y="420" 
+											data-speed="1000"
+											data-start="1250"
+											data-easing="Power3.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">
+											<div class="cap-line"></div>
+										</div> 			
+										
+										<!-- LAYER NR. 4 -->
+										<div class="tp-caption dark-light-32 fs16-when-0-736 tp-left sfb tp-resizeme"
+											data-x="650"
+											data-y="450" 
+											data-speed="900"
+											data-start="1500"
+											data-easing="Power3.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">Your passion will guide you
+										</div>
+									</div>
 
-						  	<!-- LAYER NR. 1 -->
-						  	<div class="font-white light-72-wide sm-mb-15 sm-mt-20" >
-						      WE ARE <span class="bold">HASWELL</span>
-						  	</div>
 
-						  	<!-- LAYER NR. 2 -->
-						  	<div class="font-white norm-16-wide hide-0-736 sm-mb-50">
-                  BRANDING<span class="slash-divider-10">/</span>DESIGN<span class="slash-divider-10">/</span>DEVELOPMENT<span class="slash-divider-10">/</span>PHOTO
-						  	</div>
 
-						    <!-- LAYER NR. 3 -->
-						  	<div class="center-0-478">
-                  <a class="button medium thin hover-dark tp-button white" href="https://1.envato.market/1rOKNa">SEE MORE</a><a class="button medium thin hover-dark tp-button white ml-20" href="https://1.envato.market/GVZ26">BUY NOW</a>
-						  	</div>
+								</li>
 
-							</div>
+								<!-- SLIDE 2 -->
+								<li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="images/revo-slider/rs-fullscr-thumb2.jpg"  data-saveperformance="on"  data-title="IMAGINATION">
+									
+                  <!-- MAIN IMAGE -->
+                  <img src="images/revo-slider/dummy.png"  alt="slidebg2" data-lazyload="images/revo-slider/slide_1_2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+									
+									<!-- LAYERS -->
 
-            </div>
-          </div>
-          <!-- SCROLL ICON -->
-					<div class="local-scroll-cont font-white">
+									<!-- LAYER NR. 0 BG CAPTIONS -->
+									<div class="tp-caption rs-parallaxlevel-4 zoomout"
+										data-x="left"
+										data-y="center" 
+										data-speed="1300"
+										data-start="200"
+										data-easing="Power3.easeInOut"
+										style="z-index: 0;">
+										<div class="slider-bg-white-cap"></div>
+									</div>	
+									
+									<!--PARALLAX & OPACITY container -->
+									<div class="rs-parallaxlevel-4 opacity-scroll2">
+										
+										<!-- LAYER NR. 1 -->
+										<div class="tp-caption center-0-478 dark-light-61 sfb tp-resizeme"
+											data-x="645"
+											data-y="255" 
+											data-speed="500"
+											data-start="850"
+											data-easing="Power1.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">IMAGINATION
+										</div>
+										
+										<!-- LAYER NR. 2 -->
+										<div class="tp-caption center-0-478 dark-light-54 sfb tp-resizeme"
+											data-x="650"
+											data-y="330" 
+											data-speed="500"
+											data-start="1050"
+											data-easing="Power1.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">WILL TAKE YOU
+										</div>
+										
+										<!-- LAYER NR. 3 -->
+										<div class="tp-caption center-0-478 dark-black-63 sfb tp-resizeme"
+											data-x="650"
+											data-y="407" 
+											data-speed="900"
+											data-start="1500"
+											data-easing="Power3.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">EVERYWHERE
+										</div>
+									</div>
+								</li>
+								
+								<!-- SLIDE 3 -->
+								<li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="images/revo-slider/rs-fullscr-thumb3.jpg"  data-saveperformance="on"  data-title="WELCOM">
+									
+                  <!-- MAIN IMAGE -->
+									<img src="images/revo-slider/dummy.png"  alt="citybg" data-lazyload="images/revo-slider/slide_1_3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+									
+									<!-- LAYERS -->
+
+									<!-- LAYER NR. 0 BG CAPTIONS -->
+									 <div class="tp-caption rs-parallaxlevel-4 zoomout"
+										data-x="left"
+										data-y="center" 
+										data-speed="1300"
+										data-start="200"
+										data-easing="Power3.easeInOut"
+										style="z-index: 0;">
+										<div class="slider-bg-white-cap"></div>
+									</div>
+									
+									<!--PARALLAX & OPACITY container -->
+									<div class="rs-parallaxlevel-4  opacity-scroll2">					
+										<!-- LAYER NR. 1 -->
+										<div class="tp-caption dark-light-60 center-0-478 sfb tp-resizeme"
+											data-x="645"
+											data-y="218" 
+											data-speed="500"
+											data-start="850"
+											data-easing="Power1.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">WELCOM TO
+										</div>
+
+										<!-- LAYER NR. 2 -->
+										<div class="tp-caption dark-black-60 center-0-478 sfb tp-resizeme"
+											data-x="645"
+											data-y="295" 
+											data-speed="500"
+											data-start="1050"
+											data-easing="Power1.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">HASWELL
+										</div>
+
+										<!-- LAYER NR. 3 -->
+										<div class="tp-caption center-0-478 hide-0-736 sfb tp-resizeme"
+											data-x="650"
+											data-y="395" 
+											data-speed="900"
+											data-start="1200"
+											data-easing="Power3.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">Sed ut perspiciatis unde omnis iste nation acus lorem<br>antium que
+										</div>
+										
+										<!-- LAYER NR. 4 -->
+										<div class="tp-caption center-0-478 sfb"
+											data-x="650"
+											data-y="465" 
+											data-speed="900"
+											data-start="1350"
+											data-easing="Power3.easeInOut"
+											data-splitin="none"
+											data-splitout="none"
+											data-elementdelay="0.1"
+											data-endelementdelay="0.1"
+											style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><a class="button medium gray tp-button" href="https://1.envato.market/GVZ26">BUY NOW</a><a class="button medium thin hover-dark tp-button hide-479-736 ml-20" href="https://1.envato.market/1rOKNa">READ MORE</a>
+										</div>					
+									</div>					
+									
+								</li>
+
+							</ul>
+					
+						</div>
+						
+					</div>	
+					
+					<!-- SCROLL ICON -->
+					<div class="local-scroll-cont">
 						<a href="#about" class="scroll-down smooth-scroll">
               <div class="icon icon-arrows-down"></div>
             </a>  
 					</div>
-        </div>	
+					
+				</div>
 				
-      </div>
-      
 				<!-- FEATURES 1 -->
 				<div id="about" class="page-section">
 					<div class="container fes1-cont">
@@ -857,10 +1073,10 @@
           <div class="relative">
           
             <!-- ITEMS GRID -->
-            <ul class="port-grid port-grid-3 port-grid-gut clearfix" id="items-grid">
+            <ul class="port-grid display-hover-on-mobile port-grid-3 port-grid-gut clearfix" id="items-grid">
               
               <!-- Item 1 -->
-              <li class="port-item mix">
+              <li role="button" class="port-item mix">
                 <a href="portfolio-single1.html">
                   <div class="port-img-overlay"><img class="port-main-img" src="images/portfolio/projects-5.jpg" alt="img" ></div>
                 </a>
@@ -879,7 +1095,7 @@
               </li>
 
               <!-- Item 2 -->
-              <li class="port-item mix">
+              <li role="button" class="port-item mix">
                 <a href="portfolio-single1.html">
                   <div class="port-img-overlay">
                     <img class="port-main-img" src="images/portfolio/projects-3.jpg" alt="img" >
@@ -900,7 +1116,7 @@
               </li>
               
               <!-- Item 3 -->
-              <li class="port-item mix">
+              <li role="button" class="port-item mix">
                 <a href="portfolio-single1.html">
                   <div class="port-img-overlay">
                     <img class="port-main-img" src="images/portfolio/projects-1.jpg" alt="img" >
@@ -921,7 +1137,7 @@
               </li>
               
               <!-- Item 4 -->
-              <li class="port-item mix">
+              <li role="button" class="port-item mix">
                 <a href="portfolio-single1.html">
                   <div class="port-img-overlay">
                     <img class="port-main-img" src="images/portfolio/projects-6.jpg" alt="img" >
@@ -942,7 +1158,7 @@
               </li>
               
               <!-- Item 5 -->
-              <li class="port-item mix">
+              <li role="button" class="port-item mix">
                 <a href="portfolio-single1.html">
                   <div class="port-img-overlay">
                     <img class="port-main-img" src="images/portfolio/projects-7.jpg" alt="img" >
@@ -963,7 +1179,7 @@
               </li>
               
               <!-- Item 6 -->
-              <li class="port-item mix">
+              <li role="button" class="port-item mix">
                 <a href="portfolio-single1.html">
                   <div class="port-img-overlay">
                     <img class="port-main-img" src="images/portfolio/projects-4.jpg" alt="img" >
@@ -1585,11 +1801,176 @@
     <!-- OWL CAROUSEL -->    
     <script src="js/owl.carousel.min.js"></script>
     
-    <!-- PARALLAX -->    
-    <script src="js/jquery.stellar.min.js"></script>
-    
     <!-- MAIN SCRIPT -->
 		<script src="js/main.js"></script>
+		
+		<!-- REVOSLIDER SCRIPTS  -->
+			<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+			<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>   
+			<script src="rs-plugin/js/jquery.themepunch.revolution-parallax.min.js"></script>
+      
+      <!-- SLIDER REVOLUTION INIT  -->
+			<script>
+
+				jQuery(document).ready(function() {
+          if ( (navigator.appVersion.indexOf("Win")!=-1) && ( ieDetect == false ) ) {	
+                    jQuery('#rs-fullscr').revolution(
+                    {
+                      dottedOverlay:"none",
+                      delay:16000,
+                      startwidth:1170,
+                      startheight:700,
+                      hideThumbs:200,
+                      
+                      thumbWidth:100,
+                      thumbHeight:50,
+                      thumbAmount:5,
+                      
+                      //fullScreenAlignForce: "off",
+                      
+                      navigationType:"none",
+                      navigationArrows:"solo",
+                      navigationStyle:"preview4",
+                      
+                      hideTimerBar:"on",
+                      
+                      touchenabled:"on",
+                      onHoverStop:"on",
+                      
+                      swipe_velocity: 0.7,
+                      swipe_min_touches: 1,
+                      swipe_max_touches: 1,
+                      drag_block_vertical: false,
+                                  
+                      parallax:"scroll",
+                      parallaxBgFreeze:"on",
+                      parallaxLevels:[45,40,35,50],
+                      parallaxDisableOnMobile:"on",
+                                  
+                      keyboardNavigation:"off",
+                      
+                      navigationHAlign:"center",
+                      navigationVAlign:"bottom",
+                      navigationHOffset:0,
+                      navigationVOffset:20,
+
+                      soloArrowLeftHalign:"left",
+                      soloArrowLeftValign:"center",
+                      soloArrowLeftHOffset:20,
+                      soloArrowLeftVOffset:0,
+
+                      soloArrowRightHalign:"right",
+                      soloArrowRightValign:"center",
+                      soloArrowRightHOffset:20,
+                      soloArrowRightVOffset:0,
+                          
+                      shadow:0,
+                      fullWidth:"off",
+                      fullScreen:"on",
+
+                      spinner:"spinner4",
+                      
+                      stopLoop:"off",
+                      stopAfterLoops:-1,
+                      stopAtSlide:-1,
+
+                      shuffle:"off",
+                      
+                      autoHeight:"off",						
+                      forceFullWidth:"off",						
+                                  
+                      hideThumbsOnMobile:"off",
+                      hideNavDelayOnMobile:1500,						
+                      hideBulletsOnMobile:"off",
+                      hideArrowsOnMobile:"off",
+                      hideThumbsUnderResolution:0,
+                      
+                      hideSliderAtLimit:0,
+                      hideCaptionAtLimit:0,
+                      hideAllCaptionAtLilmit:0,
+                      startWithSlide:0,
+                      //fullScreenOffsetContainer: ""	
+                    });
+          } else {
+                  jQuery('#rs-fullscr').revolution(
+                    {
+                      dottedOverlay:"none",
+                      delay:16000,
+                      startwidth:1170,
+                      startheight:700,
+                      hideThumbs:200,
+                      
+                      thumbWidth:100,
+                      thumbHeight:50,
+                      thumbAmount:5,
+                      
+                      navigationType:"none",
+                      navigationArrows:"solo",
+                      navigationStyle:"preview4",
+                      
+                      hideTimerBar:"on",
+                      
+                      touchenabled:"on",
+                      onHoverStop:"on",
+                      
+                      swipe_velocity: 0.7,
+                      swipe_min_touches: 1,
+                      swipe_max_touches: 1,
+                      drag_block_vertical: false,
+                                  
+                      parallax:"mouse",
+                      parallaxBgFreeze:"on",
+                      parallaxLevels:[0],
+                      parallaxDisableOnMobile:"on",
+                                  
+                      keyboardNavigation:"off",
+                      
+                      navigationHAlign:"center",
+                      navigationVAlign:"bottom",
+                      navigationHOffset:0,
+                      navigationVOffset:20,
+
+                      soloArrowLeftHalign:"left",
+                      soloArrowLeftValign:"center",
+                      soloArrowLeftHOffset:20,
+                      soloArrowLeftVOffset:0,
+
+                      soloArrowRightHalign:"right",
+                      soloArrowRightValign:"center",
+                      soloArrowRightHOffset:20,
+                      soloArrowRightVOffset:0,
+                          
+                      shadow:0,
+                      fullWidth:"off",
+                      fullScreen:"on",
+
+                      spinner:"spinner4",
+                      
+                      stopLoop:"off",
+                      stopAfterLoops:-1,
+                      stopAtSlide:-1,
+
+                      shuffle:"off",
+                      
+                      autoHeight:"off",						
+                      forceFullWidth:"off",						
+                                  
+                      hideThumbsOnMobile:"off",
+                      hideNavDelayOnMobile:1500,						
+                      hideBulletsOnMobile:"off",
+                      hideArrowsOnMobile:"off",
+                      hideThumbsUnderResolution:0,
+                      
+                      hideSliderAtLimit:0,
+                      hideCaptionAtLimit:0,
+                      hideAllCaptionAtLilmit:0,
+                      startWithSlide:0,
+	
+                    });      
+          }									
+				});	//ready
+				
+			</script>
 
 <!-- JS end -->	
 	
