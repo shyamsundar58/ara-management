@@ -1105,7 +1105,7 @@ support for no js
 }
 
 .fes2-img {
-  background: url(../images/fes2.jpg) 50% 50% no-repeat;
+  background: url(../images/market/currentMarket.jpg) 50% 50% no-repeat;
   
   width: 100%;
   display: block;	
@@ -1127,7 +1127,7 @@ support for no js
 	font-weight: 300;
 }
 .fes3-img {
-  background: url(../images/fes3.jpg) 50% 50% no-repeat;
+  background: url(../images/market//corporateInvestment.jpg) 50% 50% no-repeat;
   background-size: cover;
   
   width: 100%;
@@ -1212,7 +1212,9 @@ support for no js
 .p-60-cont{ padding-top:60px; padding-bottom:60px;}
 .p-80-cont{ padding-top:80px; padding-bottom:80px;}
 .p-110-cont{ padding-top:110px; padding-bottom:110px;}
-.p-140-cont{ padding-top:140px; padding-bottom:140px;}
+.p-140-cont{ padding-top:140px; 
+  /* padding-bottom:140px; */
+}
 .pt-110-cont{ padding-top:110px;}
 .pt-100-cont{ padding-top:100px;}
 .pt-80-b-50-cont { padding-top:80px; padding-bottom:50px;}
@@ -1991,6 +1993,14 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   position: relative;
   overflow: hidden;
 } 
+.image-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 .port-btn-cont a{
   display:inline-block;
 } 
@@ -3961,7 +3971,10 @@ header.affix  .logo-2, .header.affix.no-transparent .logo-2 {
 	transition: all .4s ease 0s;
 }
 .logo-img {
-  height: 42px;
+    height: 49px;
+    position: relative;
+    left: 20px;
+    top: -5px;
 }
 .logo-img.logo-color-change {
   -webkit-filter: brightness(0) invert(1);
