@@ -783,7 +783,7 @@ support for no js
 	line-height: 72px;
 	font-weight: 300;
   letter-spacing:25px;
-  color:#4b4e53;
+  color:#ea5763;
 }
 .light-70-wide{
 	font-family: 'Lato',Arial,Helvetica,sans-serif;
@@ -1052,11 +1052,11 @@ support for no js
 	line-height: 60px;
 	font-weight: 300;
 }
-.line-3-100{
-	margin-top:15px;
-	height:3px;
-	width:100px;
-	background:#4b4e53;
+.line-3-100 {
+    margin-top: 44px;
+    height: 3px;
+    width: 100px;
+    background: #4b4e53;
 }
 .fes1-box{
   position:relative;
@@ -1141,11 +1141,11 @@ support for no js
   background-repeat: no-repeat;
   background-position: center center;
 }
-.line-3-70{
-	margin-top:11px;
-	height:3px;
-	width:70px;
-	background:#4b4e53;
+.line-3-70 {
+    margin-top: 51px;
+    height: 3px;
+    width: 70px;
+    background: #4b4e53;
 }
 
 /* #FEATURES 4 #NEW
@@ -1462,6 +1462,19 @@ support for no js
   height:300px;
   margin:0 auto;
   position:relative;
+}
+.fes9-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 500px; /* adjust as needed */
+  text-align: center;
+}
+
+.fes9-img-wrapper img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 480px) {
@@ -2293,7 +2306,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   will-change: background-position;
   margin: 0;
   padding: 0;
-  background: #2c2c2c url(../images/work-proc-bg.jpg) fixed;
+  background: #2c2c2c url(../images/Untitled\ design\ \(22\).png) fixed;
   color:#f1f1f1;
 }
 .work-proc-1-bg h3, .work-proc-1-bg .icon  {
@@ -2405,7 +2418,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   will-change: background-position;
   margin: 0;
   padding: 0;
-  background:#2c2c2c url(../images/work-proc-bg.jpg) fixed;
+  background:#2c2c2c url(../images/creative\ with\ ara.png) fixed;
 }
 .video-ads-text-cont {
   margin:0 auto;
@@ -6648,6 +6661,40 @@ a:hover, a:focus {
 
 /* #ACCORDION-CUSTOM
 ================================================== */
+.accordion-wrapper {
+  max-width: 800px; /* Controls width of accordion */
+  margin: 0 auto;
+  text-align: left;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion dt a {
+  display: block;
+  padding: 15px;
+  background: #eee;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.accordion dd {
+  padding: 15px;
+  background: #f9f9f9;
+  margin: 0;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: none;
+}
+
+.accordion dt.active a {
+  background: #ddd;
+}
+
 h3.ui-accordion-header {
 	margin:0;
 	cursor:pointer;
